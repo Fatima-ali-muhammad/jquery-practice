@@ -102,18 +102,49 @@ $('#error').hide()
   /* $("#but").on('click',function(){
    $(".box").animate({height:'toggle'});
 
-   });*/
+   });
 
    $("#but").on('click',function(){
     $(".box").animate({left:'250px', opacity:'0.5',height:'150px',width:'150px'});
  
-    });
+    });*/
 
 
+
+   /* $("#flip").on('click',function(){
+      $("#panel").slideToggle("slow");
+    });*/
 
     $("#flip").on('click',function(){
-      $("#panel").slideDown("slow");
+      $("#panel").slideDown(5000);
     });
+
+
+    $("#stop").on('click',function(){
+      $('#panel').stop();
+    });
+   /* $("#flip").on('click',function(){
+      $("#panel").slideUp("slow");
+    });*/
+
+    /*$("#but").on('click',function(){
+    var div = $(".box");
+    div.animate({height: '300px', opacity: '0.4'}, "slow");
+    div.animate({width: '300px', opacity: '0.8'}, "slow");
+    div.animate({height: '100px', opacity: '0.4'}, "slow");
+    div.animate({width: '100px', opacity: '0.8'}, "slow");
+    });*/
+
+
+    $("#but").on('click',function(){
+
+      var div = $(".box");  
+      div.animate({left: '100px'}, "slow");
+      div.animate({fontSize: '2em'}, "slow");
+
+
+    });  
+
 
    
  
