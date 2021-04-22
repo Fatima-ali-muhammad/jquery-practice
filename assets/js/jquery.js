@@ -132,7 +132,24 @@ $('#error').hide()
     });
 
 
+    $('.btn1').on('click',function(){
+      alert("Text:" + $("#txt").text());
+    });
 
+    $('.btn2').on('click',function(){
+      alert("HTML:" + $('#txt').html());
+    });
+
+
+    $('#btn').on('click',function(){
+      alert("Value:" + $('#tet').val());
+
+    });
+
+
+    $(".bt").on('click',function(){
+      alert($("#w").attr("href"));
+    });
 
 
 
