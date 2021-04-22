@@ -125,14 +125,14 @@ $('#error').hide()
     });
 
 
-    $('button').on('click',function(){
+    /*$('button').on('click',function(){
       $("#p1").css("color","red")
       .slideUp(2000)
       .slideDown(2000);
-    });
+    });*/
 
 
-    $('.btn1').on('click',function(){
+    /*$('.btn1').on('click',function(){
       alert("Text:" + $("#txt").text());
     });
 
@@ -149,7 +149,26 @@ $('#error').hide()
 
     $(".bt").on('click',function(){
       alert($("#w").attr("href"));
+    });*/
+
+    $("#bn1").on('click',function(){
+      $("#script1").text("Web Page");
+
     });
+
+    $("#bn2").on('click',function(){
+      $("#script2").html("<b>just a practice</b>");
+
+    });
+
+    $("#bn3").on('click',function(){
+      $("#script3").val("jquery");
+
+    });
+
+   
+
+
 
 
 
